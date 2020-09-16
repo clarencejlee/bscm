@@ -14,15 +14,15 @@ We encourage managers and policy makers to include BSCM in the set of methods th
 ---
 # Usage Instructions
 
-Step 1 RStan setup: install RStan from here: https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started.   This will install the package RStan in R.  
+**Step 1 RStan setup:** install RStan from here: https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started.   This will install the package RStan in R.  
 
-Step 2 Other R packages installation: 
+**Step 2 R packages installation:** 
   * dplyr
   * loo
   * MASS
   * Matrix
   
-Step 3 Run run_stan.R: this is the R code that runs the models with (a) Horseshoe and (b) Spike & Slab priors.  Both text files below are Stan code that implements two variations of our proposed model:
+**Step 3 Run run_stan.R:** this is the R code that runs the models with (a) Horseshoe and (b) Spike & Slab priors.  Both text files below are Stan code that implements two variations of our proposed model:
 
 * Horseshoe_Publish.stan: variant that implements the Bayesian Horse-shoe prior
 * Spike_Slab_Publish.stan: variant that implements the Spike-and-Slab prior
